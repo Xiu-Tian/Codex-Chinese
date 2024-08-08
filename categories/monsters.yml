@@ -1,0 +1,37 @@
+  # 中文汉化配置
+  # 汉化配置作者F1xSky(修天)
+  # 请勿出售或倒卖此配置，若发现请及时联系作者
+  # 此配置为免费公开使用，切勿在其他地方购买此配置
+name: "&c&l怪物"
+discover_title:
+  title: "&c&l图库已更新"
+  subtitle: "&7怪物: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "{centered}&f&m00                                                 00"
+- " "
+- "{centered}&c&l图库已更新"
+- "{centered}&7怪物: %name%"
+- " "
+- "{centered}&7使用 &e/codex &7查看"
+- " "
+- "{centered}&f&m00                                                 00"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&a&l暗影战士"
+    lore:
+    - "&7在暗影沼泽中发现的黑暗生物."
+    - "&7他非常难击败."
+    - ""
+    - "&6掉落:"
+    - "&c❱ &7暗影之心 &8(25%)"
+    - "&c❱ &7铁锭 &8(90%)"
+    discovered_on_mob_kill:
+      type: ZOMBIE
+      name: "暗影战士"
