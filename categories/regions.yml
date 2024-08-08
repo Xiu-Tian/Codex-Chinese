@@ -1,0 +1,37 @@
+  # 中文汉化配置
+  # 汉化配置作者F1xSky(修天)
+  # 请勿出售或倒卖此配置，若发现请及时联系作者
+  # 此配置为免费公开使用，切勿在其他地方购买此配置
+name: "&c&l世界&7&l区域"
+discover_title:
+  title: "&c&l图库已更新"
+  subtitle: "&7区域: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "{centered}&f&m00                                                 00"
+- " "
+- "{centered}&c&l图库已更新"
+- "{centered}&7世界区域: %name%"
+- " "
+- "{centered}&7使用 &e/codex &7查看"
+- " "
+- "{centered}&f&m00                                                 00"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&a&l暗影沼泽"
+    lore:
+    - "&7暗影沼泽是一个充满神奇生物的黑暗区域"
+    - "&7它已有好几年无人居住..."
+    discovered_on_region: shadow_swamp
+  2:
+    name: "&a&l克林格尔市"
+    lore:
+    - "&7这是一处商贸中心地点"
+    - "&7也是Yubbin省的省都..."
+    discovered_on_region: kryngel
