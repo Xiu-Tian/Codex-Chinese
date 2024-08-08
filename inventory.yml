@@ -1,0 +1,108 @@
+  # 中文汉化配置
+  # 汉化配置作者F1xSky(修天)
+  # 请勿出售或倒卖此配置，若发现请及时联系作者
+  # 此配置为免费公开使用，切勿在其他地方购买此配置
+Inventories:
+  main:
+    slots: 45
+    title: '&4Codex &7» &8所有图鉴'
+    '21':
+      type: history
+      item: BOOK
+      name: '&7图库: %name%'
+      lore:
+      - '&e在你的冒险中, 你会发现一些有趣的知识.'
+      - ''
+      - '&7进度: %unlocked% &8[%progress_bar%&8] &8(&7%percentage%&8)'
+      open_inventory: history_discoveries
+    '22':
+      type: regions
+      item: MAP
+      name: '&7图库: %name%'
+      lore:
+      - '&e你所探索过的不同区域将展示在此.'
+      - ''
+      - '&7进度: %unlocked% &8[%progress_bar%&8] &8(&7%percentage%&8)'
+      open_inventory: regions_discoveries
+    '23':
+      type: monsters
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZjNGY3M2JmYjcyYzdmYTkwM2VjZjQwMGRkM2JiMTZlMzRlZGNlNjZlMjEwNWU3NjM3OTg1N2FjNjgxNWM3ZCJ9fX0=
+      name: '&7图库: %name%'
+      lore:
+      - '&e你所遭遇到不同怪物的信息.'
+      - ''
+      - '&7进度: %unlocked% &8[%progress_bar%&8] &8(&7%percentage%&8)'
+      open_inventory: monsters_discoveries
+    0;8;36;44:
+      item: RED_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '40':
+      item: BARRIER
+      name: '&7关闭'
+      open_inventory: close
+  history_discoveries:
+    slots: 45
+    title: '&4Codex &7» &8历史'
+    '11':
+      type: history;1
+      item: PAPER
+      name: '&6图鉴: %name%'
+      lore:
+      - '%lore%'
+    '39':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+      name: '&7返回'
+      open_inventory: main
+    0;8;36;44:
+      item: BLUE_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+  regions_discoveries:
+    slots: 45
+    title: '&4Codex &7» &8区域'
+    '11':
+      type: regions;1
+      item: PAPER
+      name: '&6图鉴: %name%'
+      lore:
+      - '%lore%'
+    '12':
+      type: regions;2
+      item: PAPER
+      name: '&6图鉴: %name%'
+      lore:
+      - '%lore%'
+    '39':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+      name: '&7返回'
+      open_inventory: main
+    0;8;36;44:
+      item: BLUE_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+  monsters_discoveries:
+    slots: 45
+    title: '&4Codex &7» &8怪物'
+    '11':
+      type: monsters;1
+      item: PAPER
+      name: '&6图鉴: %name%'
+      lore:
+      - '%lore%'
+    '39':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+      name: '&7返回'
+      open_inventory: main
+    0;8;36;44:
+      item: BLUE_STAINED_GLASS_PANE
+      name: ' '
+    1;7;9;17;27;35;37;43:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
