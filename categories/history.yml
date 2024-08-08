@@ -1,0 +1,35 @@
+  # 中文汉化配置
+  # 汉化配置作者F1xSky(修天)
+  # 请勿出售或倒卖此配置，若发现请及时联系作者
+  # 此配置为免费公开使用，切勿在其他地方购买此配置
+name: "&c&l世界&7&l历史"
+discover_title:
+  title: "&c&l图库已更新"
+  subtitle: "&7世界历史: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "{centered}&f&m00                                                 00"
+- " "
+- "{centered}&c&l图库已更新"
+- "{centered}&7世界历史: %name%"
+- " "
+- "{centered}&7使用 &e/codex &7查看"
+- " "
+- "{centered}&f&m00                                                 00"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&a&l针对克林格尔的攻击"
+    lore:
+    - "&7400年前，一群名为'The Irium'的神秘人,"
+    - "&7悄无声息地进入了克林格尔市的下水道,"
+    - "&7并袭击了可林格尔市, 他们摧毁了一切,"
+    - "&7在城市里制造了前所未有的灾难......"
+    commands:
+    - "xp give %player% 50"
+    - "msg %player% &7+50 &6XP"
