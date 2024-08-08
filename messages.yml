@@ -1,0 +1,33 @@
+  # 中文汉化配置
+  # 汉化配置作者F1xSky(修天)
+  # 请勿出售或倒卖此配置，若发现请及时联系作者
+  # 此配置为免费公开使用，切勿在其他地方购买此配置
+prefix: '&4[&cCodex&4] '
+noPermissions: '&c你没有权限.'
+configReloaded: '&a配置已重载.'
+commandUnlockErrorUse: '&c你需要使用: &7/codex unlock <玩家> <图库> <图鉴ID> <true/false>(可选, 是否提示玩家)'
+commandNotExists: '&c该命令不存在. 请使用 &7/codex help&c.'
+commandResetErrorUse: '&c你需要使用: &7/codex reset <玩家> <图库> <图鉴ID>
+  &c或 &7/codex reset <玩家> all'
+notOnline: '&c该玩家不在线.'
+playerNotUnlockedDiscovery: '&c该玩家没有解锁图鉴.'
+playerResetDiscovery: '&a玩家 &7%player% &a图库 &7%category% &a中的 &7%discovery% &a已被封存.'
+categoryNotExists: '&c图库 &7%category% &c不存在.'
+discoveryNotExists: '&c图库 &7%discovery% &c中的 &7%category% &c不存在.'
+playerAlreadyHasDiscovery: '&c玩家 &7%player% &c已经解锁了图库 &7%category%
+  &c中的 &7%discovery% &c图鉴.'
+playerUnlockDiscovery: '&a已为玩家 &7%player% &a解锁了图库 &7%category% &a中的 &7%discovery% &a图鉴!'
+inventoryUnlockedVariable: '%current%&8/%max%'
+inventoryLockedDiscoveryLore:
+- '&7你尚未解锁此图鉴.'
+inventoryLockedDiscoveryName: '&c??'
+commandCodexError: '&c插件发生错误, 请查看控制台.'
+playerResetAll: '&a玩家 &7%player% &a的所有图鉴已全部重置.'
+currentUnlockedDiscoveriesColorNone: '&c'
+currentUnlockedDiscoveriesColorAll: '&a'
+currentUnlockedDiscoveriesColorIncomplete: '&e'
+commandOpenErrorUse: '&c你需要使用: &7/codex open <player> <inventory>'
+inventoryDoesNotExists: '&c图库 &7%inventory% &c不存在.'
+playerOpenInventory: '&a图库 &7%inventory% &a已为 &e%player% &a打开!'
+commandHelpNoValidPage: '&c该页面不存在.'
+clickLockedDiscoveryCommand: '&c你尚未解锁此图鉴.'
